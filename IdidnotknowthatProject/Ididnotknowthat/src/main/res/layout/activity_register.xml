@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e8e9ea"
+    android:id="@+id/registerView" >    
+      
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/full_name_label_ar"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"
+         android:layout_marginTop="20dip"/>
+      
+     <EditText android:id="@+id/txtName"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dip"
+         android:layout_marginBottom="20dip"
+         android:hint="@string/registration_hint_name_field_ar"/>
+      
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/email_label_ar"
+         android:layout_marginLeft="10dip"
+         android:layout_marginRight="10dip"/>
+
+     <RelativeLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+
+         <EditText
+             android:id="@+id/txtEmail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_margin="10dip"
+             android:layout_toRightOf="@+id/btn_registration_myEmails"
+             android:ems="10"
+             android:hint="@string/registration_hint_email_field_ar"
+             android:inputType="textWebEmailAddress" />
+
+         <Button
+             android:id="@+id/btn_registration_myEmails"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="10dip"
+             android:text="@string/registration_myEmails_label_ar" />
+
+     </RelativeLayout>
+      
+     <Button android:id="@+id/btnRegister"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/register_button_ar"
+         android:layout_margin="10dip"/>
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:src="@drawable/logo"
+         android:contentDescription="@string/relaxoda_logo" />
+ 
+</LinearLayout>

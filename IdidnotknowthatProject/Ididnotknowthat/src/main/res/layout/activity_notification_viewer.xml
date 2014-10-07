@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e9ea"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fadeScrollbars="false"
+        android:background="#FFFFFF" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+ 			<!--  E3F6D7 -->
+            <TextView
+                android:id="@+id/textViewTitle_notificationViewer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:background="#3B5998"
+                android:padding="5dp"
+                android:textColor="#FFFFFF"
+                android:text="Title"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+
+            <ImageSwitcher
+                android:id="@+id/imageSwitcher_notificationViewer"
+                android:layout_width="fill_parent"
+                android:layout_height="350dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical" >
+            </ImageSwitcher>
+            
+                        <LinearLayout
+                android:id="@+id/imgBanner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                />
+            
+			<!--  ECF0F1 -->
+            <Gallery
+                android:id="@+id/gallery_notificationViewer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="#b7c7cf"
+                android:gravity="center_vertical"
+                android:spacing="20dp" />
+			<!--  E3F6D7,EEFAE7 -->
+            <TextView
+                android:id="@+id/textViewDescription_notificationViewer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#e6f1f6"
+                android:padding="10dp"
+                android:autoLink="web"
+                android:text="description"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">لم اكن اعلم</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Push Notifications</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">MainActivity</string>
+    <string name="relaxoda_logo">Relaxoda Logo</string>
+    <string name="title_activity_notification_viewer">MainActivity</string>
+    <string name="admob_id">a151dd51425053d</string>
+    <string name="image_saved_in_sdcard_ar">تم حفظ الصورة بنجاح في ألبومك</string>
+    <string name="image_saved_in_sdcard_en">Image saved successfully in your gallery</string>
+    <string name="image_exist_in_sdcard_ar">الاسم مستخدم</string>
+    <string name="image_exist_in_sdcard_en">Name is used</string>
+    <string name="image_save_title_ar">هل ترغب في حفظ الصورة ؟</string>
+    <string name="image_save_title_en">Do you want to save this photo ?</string>
+    <string name="image_save_button_yes_ar">نعم</string>
+    <string name="image_save_button_yes_en">Yes</string>
+    
+    <string name="image_save_wait_title_ar">جاري حفظ الصورة...</string>
+    <string name="image_save_wait_title_en">Saving the image...</string>
+    
+    <string name="image_save_button_no_ar">لا</string>
+    <string name="image_save_button_no_en">No</string>
+    
+    <string name="image_fail_in_sdcard_ar">فشل في حفظ الصورة</string>
+    <string name="image_fail_in_sdcard_en">Fail to save the image</string>
+    <string name="news_list_header_ar"> اخر الصور و المعلومات</string>
+    <string name="news_list_header_en"> Latest photos and informations </string>
+    <string name="search_label_ar"> بحث عن </string>
+    <string name="search_label_en">Search for</string>
+    <string name="full_name_label_ar"> الاسم</string>
+    <string name="full_name_label_en"> Name</string>
+    <string name="email_label_ar"> الايميل</string>
+    <string name="email_label_en"> Email</string>
+    <string name="register_button_ar">تسجيل</string>
+    <string name="register_button_en">Register</string>
+    <string name="register_confirm_button_ar">تأكيد</string>
+    <string name="register_confirm_button_en">Confirm</string>
+    
+    <string name="delete_news_title_ar"></string>
+    <string name="delete_news_title_en"></string>
+    <string name="delete_news_message_ar">هل ترغب في حذف هذا الموضوع ؟</string>
+    <string name="delete_news_message_en">Do you want to delete this topic ?</string>
+    <string name="delete_news_button_label_ar">حذف</string>
+    <string name="delete_news_button_label_en">Delete</string>
+    <string name="cancel_deleting_news_button_label_ar">الغاء</string>
+    <string name="cancel_deleting_news_button_label_en">Cancel</string>
+    <string name="registration_hint_name_field_ar"> الاسم الاول و الاخير</string>
+    <string name="registration_hint_name_field_en">your first and last name</string>
+    <string name="registration_hint_email_field_ar">ايميلك الشخصي</string>
+    <string name="registration_hint_email_field_en">your email</string>
+    <string name="alert_title_network_error_ar"> خطأ في اتصال</string>
+    <string name="alert_title_network_error_en">Internet Connection Error</string>
+    <string name="alert_message_network_error_ar">ارجو الاتصال بشبكة الانترنت</string>
+    <string name="alert_message_network_error_en">Please connect to working Internet connection</string>
+    <string name="alert_title_registration_error_ar">خطأ في التسجيل</string>
+    <string name="alert_title_registration_error_en">Registration Error</string>
+    <string name="alert_message_registration_error_ar">ارجو ادخال معلوماتك</string>
+    
+    <string name="alert_message_registration_error_en">Please enter your details</string>
+    
+     <string name="registration_myEmails_label_ar"> إيميلاتي</string>
+     <string name="registration_myEmails_label_en"> My Emails</string>
+     
+     <string name="registration_myEmails_Dialog_title_ar"> اختر ايميل</string>
+     <string name="registration_myEmails_Dialog_title_en">Pick an Email</string>
+     
+    <string name="title_activity_view_image">ViewImageActivity</string>
+    <string name="title_activity_image_viewer">ImageViewerActivity</string>
+    
+    <string name="registration_waiting_title_ar"> جاري تسجيل معلوماتك...</string>
+    <string name="registration_waiting_title_en"> Registering your information...</string>
+    
+    <string name="registration_waiting_message_ar"> يرجى الانتظار...</string>
+    <string name="registration_waiting_message_en"> Please Wait...</string>
+    
+    <string name="registration_fail_try_again_title_ar">فشل في التسجيل</string>
+    <string name="registration_fail_try_again_title_en">Fail in registration </string>
+    
+    <string name="registration_fail_try_again_message_ar">يجري المحاولة مرة اخرى, يرجى الانتظار...</string>
+    <string name="registration_fail_try_again_message_en">Trying to register again, please wait... </string>
+	
+	<string name="registration_fail_title_ar">فشل في عملية التسجيل ,ارجو المحاوله لاحقا</string>
+	<string name="registration_fail_title_en">Fail in registration please try later</string>
+	
+	<string name="registration_success_title_ar">تمت عملية التسجيل بنجاح</string>
+	<string name="registration_success_title_en">Registration is Completed Successfully</string>
+	
+	<string name="out_of_memory_exception_ar"> عذرا هاتفك لا يستطلع عرض كل صور والمعلومات في نفس الوقت</string>
+	<string name="out_of_memory_exception_en"> Sorry your phone cant view all the photos in the same time</string>
+	
+	<string name="menu_remove_all_title_ar">حذف جميع المواضيع</string>
+	<string name="menu_remove_all_title_en">Delete all topics </string>
+	
+	<string name="registration_update_waiting_title_ar">جاري تحديث معلوماتك...</string>
+	<string name="registration_update_waiting_title_en">Updating your information...</string>
+	
+	<string name="registration_update_fail_title_ar">فشل في عملية التحديث ,ارجو المحاوله لاحقا</string>
+	<string name="registration_update_fail_title_en">Fail in update please try later</string>
+	
+	<string name="registration_update_success_title_ar">تمت عملية التحديث بنجاح</string>
+	<string name="registration_update_success_title_en">Updating is Completed Successfully</string>
+	
+</resources>
