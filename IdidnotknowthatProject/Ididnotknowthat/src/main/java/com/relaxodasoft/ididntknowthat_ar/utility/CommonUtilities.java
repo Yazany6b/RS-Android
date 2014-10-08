@@ -22,8 +22,8 @@ import android.util.Patterns;
 public final class CommonUtilities {
      
     // give your server registration url here"http://relaxodasoft.freeiz.com/OdaiProject2/register.php";//
-    public static final String SERVER_URL_REGISTER = "http://androiddev.relaxodasoft.com/OdaiProject/register.php";
-    public static final String SERVER_URL_UNREGISTER = "http://androiddev.relaxodasoft.com/OdaiProject/unregister.php"; 
+    public static final String SERVER_URL_REGISTER = "http://ec2-54-68-66-205.us-west-2.compute.amazonaws.com/php-repo/GCM_SERVER/register.php";
+    public static final String SERVER_URL_UNREGISTER = "http://ec2-54-68-66-205.us-west-2.compute.amazonaws.com/php-repo/GCM_SERVER/register.php/unregister.php"; 
     
     // Google project id
     public static final String SENDER_ID = "688629683349"; 
